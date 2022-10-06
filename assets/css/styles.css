@@ -10797,4 +10797,10 @@ button:active {
   transform: translateY(4px);
 }
 
+@media (max-width: 500px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

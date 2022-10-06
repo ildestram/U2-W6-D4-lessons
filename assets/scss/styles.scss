@@ -57,6 +57,14 @@
 //     @include square (300px)
 // }
 
+@media (max-width: $breakpoint-mid) {
+    .container-fluid {
+        @include size;
+    }
+    
+}
+// CHIEDERE A LIDIA
+
 
 
 

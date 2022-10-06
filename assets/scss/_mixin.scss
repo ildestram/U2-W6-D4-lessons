@@ -29,8 +29,6 @@
 // }
 
 @mixin size {
-    @media only screen and (min-width: $midsize) {
-        @content;
-    }
+    display: none;   
 }
 

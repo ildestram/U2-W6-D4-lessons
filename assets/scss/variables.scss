@@ -4,10 +4,12 @@ $secondary: orange;
 $text: orangered;
 $background: black;
 $backlight: lighten($background, 50%);
+// $fontText: font-family: 'Noto Sans', sans-serif;
+
 
 // MIXIN FOR MEDIA-QUERIES
 // $tablet: 768px;
 // $large: 992px;
 // $xlarge: 1200px;
 
-$midsize: 500px;
+$breakpoint-mid: 500px;
