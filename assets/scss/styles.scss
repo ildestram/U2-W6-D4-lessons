@@ -18,6 +18,31 @@
 @import "titles.scss";
 // QUESTI SONO I PARTIALS
 
+// // vogliamo che alcuni elementi siano quadrati
+// @mixin square($size) {
+//     width: $size;
+//     height: $size;
+// }
+
+// @mixin rectangle($x, $y) {
+//     width: $x;
+//     height: $y;
+// }
+@import "_mixin.scss";
+
+// dichiariamo delle proprietà e ovunque noi andiamo a includerlo ci aspettiamo che inserisca quelle determinate proprietà
+.box {
+    @include square(100px)
+}
+
+.box-grow {
+    @include rectangle(100px, 100%)
+}
+
+img {
+    @include square (300px)
+}
+
 
 
 

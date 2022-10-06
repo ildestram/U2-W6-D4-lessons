@@ -1,0 +1,11 @@
+// DICHIARO IN QUESTA PAGINA I MIXIN
+// vogliamo che alcuni elementi siano quadrati
+@mixin square($size) {
+    width: $size;
+    height: $size;
+}
+
+@mixin rectangle($x, $y) {
+    width: $x;
+    height: $y;
+}
