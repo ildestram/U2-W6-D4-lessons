@@ -1,3 +1,8 @@
 $primary: indigo;
 $secondary: orange;
 $light: lighten($primary, 50%);
+
+// MIXIN FOR MEDIA-QUERIES
+$tablet: 768px;
+$large: 992px;
+$xlarge: 1200px;
