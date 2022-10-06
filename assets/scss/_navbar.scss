@@ -1,0 +1,9 @@
+i {
+    color: black;
+}
+
+button:active {
+    background-color: $text;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}

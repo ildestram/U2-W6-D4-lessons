@@ -30,26 +30,32 @@
 // }
 @import "_mixin.scss";
 
+@import "_navbar.scss";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Fira+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Lato:ital,wght@0,300;1,400;1,700;1,900&family=Mukta:wght@400;500;600;700&family=Noto+Sans:wght@200&family=Roboto:wght@300;400;500;700&display=swap');
+
 // dichiariamo delle proprietà e ovunque noi andiamo a includerlo ci aspettiamo che inserisca quelle determinate proprietà
-.box {
-    @include square(100px);
+// .box {
+//     @include square(100px);
 
-    @include tablet {
-        @include square(200px);
-    }
+//     @include tablet {
+//         @include square(200px);
+//     }
 
-    @include large {
-        @include square(250px);
-    }
-}
+//     @include large {
+//         @include square(250px);
+//     }
+// }
 
-.box-grow {
-    @include rectangle(100px, 100%)
-}
+// .box-grow {
+//     @include rectangle(100px, 100%)
+// }
 
-img {
-    @include square (300px)
-}
+// img {
+//     @include square (300px)
+// }
 
 
 

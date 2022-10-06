@@ -1,29 +1,36 @@
 // DICHIARO IN QUESTA PAGINA I MIXIN
 // vogliamo che alcuni elementi siano quadrati
-@mixin square($size) {
-    width: $size;
-    height: $size;
-}
+// @mixin square($size) {
+//     width: $size;
+//     height: $size;
+// }
 
-@mixin rectangle($x, $y) {
-    width: $x;
-    height: $y;
-}
+// @mixin rectangle($x, $y) {
+//     width: $x;
+//     height: $y;
+// }
 
 // MIXIN FOR MEDIA-QUERIES
 // $tablet: 768px;
 // $large: 992px;
 // $xlarge: 1200px;
 
-@mixin tablet {
-    @media only screen and (min-width: $tablet) {
-        @content;
+// @mixin tablet {
+//     @media only screen and (min-width: $tablet) {
+//         @content;
         // ci permette di usare il mixin per contenere altro codice scss
+//     }
+// }
+
+// @mixin large {
+//     @media only screen and (min-width: $large) {
+//         @content;
+//     }
+// }
+
+@mixin size {
+    @media only screen and (min-width: $midsize) {
+        @content;
     }
 }
 
-@mixin large {
-    @media only screen and (min-width: $large) {
-        @content;
-    }
-}
