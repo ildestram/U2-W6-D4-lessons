@@ -1,0 +1,24 @@
+// 1. definisco le variabili di bootstrap che voglio sovrascrivere
+// $primary: indigo;
+// $secondary: orange;
+// $light: lighten($primary, 50%);
+// $dark: darken($primary);
+// CHIEDERE A LIDIA PERCHE' NON TI ESCE
+@import "variables.scss";
+
+// significa che qualsiasi classe con .primary avrà di default il colore indigoù
+
+// 2. importo il sorgente di bootstrap -> le mie variabili andranno a sovrascrivere quelle che si chiamano allo stesso modo
+// IMPORTO IL SORGENTE DI BOOTSTRAP
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// 3. scrivo il mio scss -> dopo l'import
+
+// scss solitamente diviso in più file per ordine (per avere ordine nel progetto)
+@import "titles.scss";
+// QUESTI SONO I PARTIALS
+
+
+
+
+
